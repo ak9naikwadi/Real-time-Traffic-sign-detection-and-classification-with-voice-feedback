@@ -82,7 +82,8 @@ For our proposed model, we have collected upto 8200 images with each image label
 For including voice assistance in our system, we have used Google Text-to-Speech ([gTTS](https://pypi.org/project/gTTS/)) python library which generates sound based on the text. However, while speaking out the label of the detected traffic sign in current frame, the processing of the next frame used to halt. Hence, there was a delay with respect to the actual video. To overcome this problem, we used the concept of Multithreading in which the processing of the frame continues and the voice feedback does not interrupt the processing of the next frame. However, even after handling the issue of delay, another obstacle arised i.e. as the frames were continuous, in each frame the traffic sign detected was called out by the gTTS. Hence, we used a buffer array to check the repetition of consecutive traffic sign in the frames. If the sign detected is not in the buffer then the gTTS will speak the label of the class else it will look for the next frame. Solving these issues helped in increasing the performance of the model on our system.
 
 ------
-### 5. Results
+<br>
+## Results
 ![Output image](output/output1.png)
 
 ![Output image](output/output2.png)
