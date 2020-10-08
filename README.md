@@ -61,7 +61,7 @@ To accomplish this we used a tool [OpenLabeling](https://github.com/Cartucho/Ope
 
 Where:
  - `[class_id]` : integer number of object class from 0 to (classes-1)
- - `[x] [y] [width] [height]` : float values relative to width and height of image, it can be equal from (0.0 to 1.0]
+ - `[x] [y] [width] [height]` : float values relative to width and height of image, ranging from (0.0 to 1.0]
  - for example: `[x] = [absolute_x] / [image_width]` or `[height] = [absolute_height] / [image_height]`
  - Note `[x] [y]`  is the centre of rectangle (are not top-left corner).
 
