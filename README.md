@@ -5,7 +5,7 @@ With the increase in number of road accidents happening every year, there has be
 
 In this project, an approach to assist the driver through traffic sign recognition with much more faster detection in conjunction with human-like general voice feedback has been presented.
 
-> _Research Paper **AI based Driver Assisant system** published in International Research Journal of Engineering and Technology (IRJET),<br>
+> _Research Paper **AI based Driver Assistant system** published in International Research Journal of Engineering and Technology (IRJET),<br>
 > which can be found [here.](https://irjet.net/archives/V7/i4/IRJET-V7I4226.pdf)_
 
 ### Output video
